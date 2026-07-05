@@ -1,0 +1,23 @@
+# Rust
+/target/
+**/*.rs.bk
+
+# Local runtime output
+/var/
+*.log
+tmp/
+
+# Local environments and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local assistant state
+.codex/

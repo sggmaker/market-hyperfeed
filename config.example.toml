@@ -1,0 +1,12 @@
+[exchange]
+websocket_url = "wss://ws-feed.exchange.coinbase.com"
+product_id = "BTC-USD"
+channel = "matches"
+
+[wal]
+path = "var/quickstart.wal.jsonl"
+
+[clickhouse]
+url = "http://127.0.0.1:8123"
+database = "market_hyperfeed"
+table = "canon_trade_v2"
